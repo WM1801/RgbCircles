@@ -27,7 +27,7 @@ public class EnemyCircle extends SimpleCircle {
         int radius = FROM_RADIUS + random.nextInt(TO_RADIUS - FROM_RADIUS);
         EnemyCircle  enemyCircle = new EnemyCircle(x,y,radius);
 
-        return enemyCircle;
+        return enemyCircle ;
     }
 
     public void setEnemyOrFoodColorDependson(MainCircle mainCircle) {
